@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+:root {
+	--purple: #ab7aad;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -324,7 +328,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #47D3E5;
+			color: var(--purple);
 		}
 
 	strong, b {
@@ -8567,7 +8571,7 @@ input, select, textarea {
 		}
 
 		#wrapper > .color3 {
-			background-color: #ab7aad;
+			background-color: var(--purple);
 		}
 
 		#wrapper > .color4 {
