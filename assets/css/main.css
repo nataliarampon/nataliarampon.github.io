@@ -9,6 +9,7 @@
 
 :root {
 	--purple: #ab7aad;
+	--dark-grey: #3c3c3c;
 }
 
 html, body, div, span, applet, object,
@@ -324,11 +325,11 @@ input, select, textarea {
 	}
 
 	a {
-		color: #000000;
+		color: var(--purple);
 	}
 
 		a:hover {
-			color: var(--purple);
+			color: var(--dark-grey);
 		}
 
 	strong, b {
